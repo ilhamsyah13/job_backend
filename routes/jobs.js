@@ -2,7 +2,7 @@ const Router = require("koa-router");
 const axios = require("axios");
 
 const router = new Router();
-const BASE_URL = "/api/v1/jobs";
+const BASE_URL = "/api/recruitments/positions";
 
 router.get(BASE_URL, async (ctx) => {
   try {
